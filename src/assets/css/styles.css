@@ -6,4 +6,66 @@
   font-family: "Roboto", sans-serif;
 }
 
+.home {
+  background-color: #0b0b0b;
+  color: white;
+}
+
+.navbar {
+  width: 100%;
+  top: 0;
+  font-size: 1rem;
+  position: fixed;
+  z-index: 999;
+  background: linear-gradient(to top, transparent 0%, rgba(0, 0, 0, 0.3) 50%);
+}
+.navbar .container {
+  padding: 0 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+.navbar .container .left {
+  display: flex;
+  align-items: center;
+}
+.navbar .container .left img {
+  height: 3rem;
+  margin-right: 2.5rem;
+}
+.navbar .container .left span {
+  margin-right: 1.25rem;
+}
+.navbar .container .right {
+  display: flex;
+  align-items: center;
+}
+.navbar .container .right .icon {
+  margin: 0 1rem;
+  cursor: pointer;
+  background-color: chocolate;
+}
+.navbar .container .right img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.navbar .container .right .profile .options {
+  display: none;
+  background-color: #0b0b0b;
+  border-radius: 5px;
+}
+.navbar .container .right .profile .options span {
+  padding: 10px;
+  cursor: pointer;
+}
+.navbar .container .right .profile:hover .options {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
 /*# sourceMappingURL=styles.css.map */
