@@ -9,10 +9,10 @@ RUN SASS:
 INSTALL MATERIAL ICONS AND CORE:
   >>> npm install @material-ui/icons
   >>> npm install @material-ui/core
-MATERIAL ICONS:
-  >>> https://mui.com/components/material-icons/
+  MATERIAL ICONS:
+  >>> url: https://mui.com/components/material-icons/
 *******************************************************************************************************************
-
-
+INSTALL REACT-ROUTER-DOM:
+  >>> npm install react-router-dom
 *******************************************************************************************************************
 
