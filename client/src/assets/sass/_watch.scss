@@ -1,0 +1,21 @@
+.watch {
+  background-color: black;;
+  .back {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    color: white;
+    cursor: pointer;
+    z-index: 2;
+  }
+  .video {
+    
+    iframe {
+      width: 100vw;
+      height:100vh;
+      object-fit: cover;
+    }
+  }
+}

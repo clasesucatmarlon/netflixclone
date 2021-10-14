@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Search, Notifications, ArrowDropDown } from '@material-ui/icons';
 
-import LogoNetflix from '../../assets/images/Logo-Netflix-500x281.png'
+import LogoNetflix from '../../assets/images/LogoNetflix.png'
 
 
 const Navbar = () => {
@@ -18,7 +18,7 @@ const Navbar = () => {
     <div className={isScrolled ? "navbar scrolled" : "navbar"}>
       <div className="container">
         <div className="left">
-          <img src={LogoNetflix} alt="" />
+          <img src={LogoNetflix} alt="Netflix Logo" />
           <span>Homepage</span>
           <span>Series</span>
           <span>Movies</span>
